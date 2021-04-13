@@ -1,0 +1,97 @@
+
+h2,p,body{
+	font-family: 'Oxygen', sans-serif;
+	font-weight: lighter
+}
+
+h1 {
+	font-family: 'Helvetica', sans-serif;
+	font-weight: lighter;
+}
+
+h1,h2{
+	color:#845460;
+}
+
+p{
+	color:gray;
+}
+
+body {
+	background-color: #f8f5f1;
+}
+
+
+
+.list-inline{
+	list-style-type: none;
+	padding: 0px;
+}
+
+.list-inline > li{
+	display: inline;
+	padding: 0px 20px;
+}
+
+.list-inline i{
+	color: gray;
+	font-size: 30px;
+}
+
+.list-inline a{
+	text-decoration: none
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+#fb-button:hover, #instagram-button:hover, #linkedin-button:hover{
+	color: #845460;
+	transition: all 0.2s;
+}
+
+
+.card-white {
+	background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    text-align: center;
+    margin: 15px 0;
+    transition: all 0.1s;
+}
+
+.card-white:hover {
+	margin: 10px 20px;
+	box-shadow: 0px 10px 30px rgb(52 33 38/50%);
+}
+
+.profile-pic{
+    border-radius: 50%;
+}
+
+.download-button{
+	border: 0.1em solid #845460;
+	font-family: 'Oxygen', sans-serif;
+	margin: 10px;
+	padding: 5px;
+    color: #845460;
+    text-decoration: none;
+    border-radius: 15px;
+    box-sizing: border-box;
+    transition: all 0.2s;
+}
+.download-button:hover{
+	background-color: #845460;
+	color: white;
+}
+
+@media (max-width: 710px){
+	.container{
+		width: 430px;
+	margin: 40px auto;
+	}
+}
